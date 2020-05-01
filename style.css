@@ -1,0 +1,669 @@
+/* variable codes for sizes used on the slack website  */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font: 500 1.5rem/1.5 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  color: #1d1d1d; }
+
+#container {
+  overflow: auto; }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row [class^='col'] {
+  float: left; }
+
+.row [class^='col']:not(:last-child) {
+  margin-right: 5rem; }
+
+.row .col-md-2 {
+  width: calc((100% - 5rem) / 2); }
+
+.row .col-sm-3 {
+  width: calc((100% - 2 * 5rem) / 3); }
+
+.heading .nav-bar-ltr .nav, .heading .nav-bar-rtl {
+  position: absolute; }
+
+.btn {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  border-radius: .4rem; }
+
+.sm-btn {
+  padding: 1.2rem 1.4rem 1.3rem; }
+
+.lg-btn {
+  padding: 1.5rem 3rem 2rem;
+  margin-right: 1rem; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+strong {
+  font-size: 1.2rem; }
+
+span {
+  font-size: 1.25rem;
+  display: block;
+  font-weight: 500; }
+
+.md {
+  font-size: 5.2rem; }
+
+p {
+  font-weight: 500;
+  line-height: 1.5; }
+
+h1 {
+  padding: 1rem 0 0 0;
+  font-size: calc(2rem + (14 * (90vw - 200px)/ 390));
+  line-height: 1.2;
+  letter-spacing: -.2rem; }
+
+h3 {
+  font-size: 1.5rem;
+  padding: 2rem 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #1d1d1d; }
+
+.clientinfo {
+  float: right;
+  letter-spacing: .05rem;
+  margin: 8.1rem 0 -1.5rem 0; }
+
+.clientinfo i {
+  color: #1264a3; }
+
+.clientinfo a {
+  color: #1264a3;
+  padding-right: 2.5rem; }
+
+.clienteverlane {
+  float: right;
+  letter-spacing: .05rem;
+  margin: 9.1rem 0 -1.5rem; }
+
+.clienteverlane i {
+  color: #1264a3; }
+
+.clienteverlane a {
+  color: #1264a3;
+  padding-right: 2.5rem; }
+
+.clientlyft {
+  float: right;
+  letter-spacing: .05rem;
+  margin: 5.4rem 0 -1.5rem; }
+
+.clientlyft i {
+  color: #1264a3; }
+
+.clientlyft a {
+  color: #1264a3;
+  padding-right: 2.5rem; }
+
+.featureinfo {
+  letter-spacing: .05rem; }
+
+.featureinfo i {
+  color: #1264a3; }
+
+.featureinfo a {
+  color: #1264a3;
+  padding-right: 12rem; }
+
+.un {
+  margin-top: 8.5rem; }
+
+.tri {
+  margin-top: 5.2rem; }
+
+.duo {
+  margin-top: 2.5rem; }
+
+.sm-lnt {
+  width: 90%; }
+
+.fbox {
+  padding: .5rem 0 0;
+  font-size: 2rem;
+  font-weight: 600; }
+
+.svgimage {
+  width: 15%; }
+
+.mg-bt {
+  margin: 4rem auto; }
+
+.bgw {
+  background: #ebeaeb; }
+
+.arrow1, .arrow2, .arrow3 {
+  position: absolute;
+  right: 8%; }
+
+.heading {
+  border: 0;
+  height: 6.5rem;
+  border-bottom: 1px solid #ebeaeb; }
+
+.heading .nav-bar {
+  position: relative; }
+
+.heading .nav-bar::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.heading .nav-bar_logo img {
+  width: 10.5%; }
+
+.heading .nav-bar-ltr {
+  float: left; }
+
+.heading .nav-bar-ltr .nav {
+  top: 25%;
+  left: 13%; }
+
+.heading .nav-bar-ltr .nav a {
+  display: block; }
+
+.heading .nav-bar-ltr .nav-item {
+  position: relative;
+  display: inline-block;
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin: .5rem 3rem 0 0;
+  padding-bottom: 1.2rem; }
+
+.heading .nav-bar-ltr .nav-item:hover > ul {
+  display: block; }
+
+.heading .nav-bar-ltr .nav-item ul {
+  display: none;
+  width: 22rem;
+  position: absolute;
+  left: -30%;
+  border: 1px solid #ebeaeb;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  z-index: 1;
+  box-shadow: 0 0.5rem 1.7rem 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff; }
+
+.heading .nav-bar-ltr .nav-item ul ul {
+  position: absolute;
+  top: -3.1%;
+  left: 21.8rem;
+  width: 24rem;
+  height: 63vh;
+  display: none;
+  border-radius: 0 .5rem .5rem 0;
+  box-shadow: 0 0 0 0; }
+
+.heading .nav-bar-ltr .nav-item ul a {
+  margin: 1.2rem 1rem;
+  padding: 0 1rem .5rem; }
+
+.heading .nav-bar-ltr .nav-item ul a:hover {
+  color: #1264a3; }
+
+.heading .nav-bar-ltr .nav-item .toggle {
+  border-radius: .5rem 0 0 .5rem; }
+
+.heading .nav-bar-ltr .nav-item ul .toggler {
+  border-radius: .5rem 0 0 .5rem; }
+
+.heading .nav-bar-ltr .nav-item ul .toggler a:hover, .heading .nav-bar-ltr .nav-item ul .toggler a:focus, .heading .nav-bar-ltr .nav-item ul .toggler a:active {
+  background-color: #ebeaeb;
+  color: #1d1d1d; }
+
+.heading .nav-bar-rtl {
+  float: right;
+  top: 32%;
+  right: 2%; }
+
+.heading .nav-bar-rtl a:hover {
+  background: #4a154b; }
+
+/* ===== fixed navigation bar ====== */
+.nav-bar-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0 3rem;
+  z-index: 9999;
+  background: #ffffff;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1); }
+
+.nav-item .nav-item-ext li:hover ul {
+  display: block; }
+
+.btn-dk {
+  background-color: #611f69;
+  color: #fff; }
+
+.btn-wh {
+  background: transparent;
+  border: 1px solid #611f69;
+  fill: #611f69; }
+
+.ls a:hover {
+  color: #1264a3; }
+
+.arrow1 {
+  top: 4.5%; }
+
+.arrow2 {
+  top: 15%; }
+
+.arrow3 {
+  top: 26%; }
+
+.workspace-admin {
+  margin-top: 3rem;
+  font-weight: 600; }
+
+.workspace-admin a {
+  border-bottom: 1px solid #1264a3;
+  padding: .1rem;
+  color: #1264a3; }
+
+.workspace {
+  font-weight: 600;
+  margin-top: 3.5rem; }
+
+.post {
+  color: #535053;
+  font-size: 1.6rem; }
+
+.postmsg {
+  color: black;
+  font-size: 1.2rem; }
+
+.vid1 {
+  box-shadow: 0 0.5rem 1.6rem 0 rgba(0, 0, 0, 0.2); }
+
+.main-section {
+  max-width: 114rem; }
+
+.main-section .content {
+  padding: 4rem 0 3rem; }
+
+.main-section .content-msg {
+  margin: 1.5rem 0 0 0;
+  width: 79%;
+  font-size: 1.8rem; }
+
+.main-section .content-btn {
+  margin: 4rem 0 0 0; }
+
+.main-section .content-btn a:last-child:hover {
+  border: 2px solid #4a154b; }
+
+.main-section .icon {
+  margin: 6rem 0; }
+
+.feature {
+  width: 70%; }
+
+.feature_top {
+  text-align: center; }
+
+.feature_top_msg {
+  font-size: 1.6rem;
+  padding: 2rem 0 0; }
+
+.slack-benefit {
+  border-bottom: 1px solid #ebeaeb;
+  margin: 2rem 0 3rem;
+  padding: .5rem 1rem 4rem; }
+
+.slack-benefit .row {
+  width: 114rem; }
+
+.slack-benefit p {
+  font-size: 1.6rem; }
+
+.channels .content-msg, .shared-channels .content-msg {
+  padding: 1.5rem 0 0;
+  font-size: 1.7rem; }
+
+.channels .content, .shared-channels .content {
+  margin: 4rem 0 0;
+  padding: 3.5rem; }
+
+.channels {
+  max-width: 114rem;
+  margin: 0 auto; }
+
+.channels .content-msg {
+  width: 85%; }
+
+.channels .content-msg a {
+  color: #1264a3; }
+
+.shared-channels {
+  max-width: 114rem;
+  margin: 0 auto; }
+
+.shared-channels .content-msg a {
+  color: #1264a3; }
+
+.shared-channels .vid {
+  padding-left: 1rem; }
+
+.feedback {
+  background-color: #f2f2f2;
+  padding: 3rem 0 5rem; }
+
+.feedback_top {
+  width: 50%;
+  text-align: center; }
+
+.feedback_msg {
+  font-size: 1.7rem;
+  padding: 3rem 0 0; }
+
+.feedback_msg a {
+  color: #1264a3; }
+
+.feedback_container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto; }
+
+.feedback_client {
+  width: 90%;
+  display: none; }
+
+.feedback_client::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.feedback_client:hover {
+  transform: scale(1.05) translateY(0.5rem);
+  transition: all .3s ease-out; }
+
+.feedback_client_banner {
+  width: 38%;
+  float: left; }
+
+.feedback_client_msg {
+  background: #fff;
+  padding: 3rem;
+  width: 62%;
+  float: left;
+  z-index: -1;
+  box-shadow: 0 0.5rem 2rem 0 rgba(29, 29, 29, 0.08); }
+
+.feedback_client_msg img {
+  margin: 0 0 2rem; }
+
+.feedback_client_msg p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-style: italic; }
+
+.feedback_associate {
+  display: inline-block;
+  padding: 0 4rem; }
+
+.feedback_associate img {
+  margin: 5rem 0 5rem 7rem; }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  font-size: 3rem;
+  transition: 0.6s ease;
+  user-select: none;
+  color: #696969; }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0; }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: #b6b6b6; }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 2.5rem .5rem 0;
+  background-color: #b6b6b6;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #611f69; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .8; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .8; }
+  to {
+    opacity: 1; } }
+
+.feature_container {
+  margin: 0 0 8rem; }
+
+.feature_top {
+  padding: 2rem 0 4rem; }
+
+.feature_box {
+  height: 39.5rem;
+  z-index: -1;
+  box-shadow: 0 0 1.5rem 0.5rem rgba(29, 29, 29, 0.08);
+  padding: 1.2rem; }
+
+.feature_box:hover {
+  transform: scale(1.05) translateY(1rem);
+  transition: all .3s ease-out; }
+
+.feature_msg {
+  padding: 1rem 0 2rem; }
+
+.workplan {
+  background: #4a154b; }
+
+.workplan_top {
+  padding: 5rem 0;
+  text-align: center; }
+
+.workplan_top h1 {
+  color: #ebeaeb; }
+
+.workplan_btn {
+  margin: 5rem 0; }
+
+.workplan_btn a {
+  border: 1px solid #ebeaeb; }
+
+.workplan_btn a:first-child {
+  color: #4a154b; }
+
+.workplan_btn a:last-child {
+  color: #ebeaeb; }
+
+.footer {
+  font-family: sans-serif; }
+
+.footer .container {
+  width: 114rem;
+  padding: 3rem 0;
+  min-height: 70vh; }
+
+.footer .container::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.footer .container_wrapper1 {
+  float: left;
+  width: 35%; }
+
+.footer .container_wrapper2 {
+  float: left;
+  color: #696969;
+  width: 65%;
+  position: relative;
+  font-size: 1.25rem; }
+
+.footer .container_wrapper2 span {
+  padding: .5rem .5rem 0;
+  font-weight: 600; }
+
+.footer .container_wrapper2 a {
+  color: #696969;
+  padding: .5rem; }
+
+.footer .container_wrapper2 a:hover {
+  color: #1264a3; }
+
+.footer .container_wrapper2_product {
+  position: absolute; }
+
+.footer .container_wrapper2_product ul li {
+  margin: 1rem 0; }
+
+.footer .container_wrapper2_team {
+  position: absolute;
+  left: 25%; }
+
+.footer .container_wrapper2_team ul li {
+  margin: 1rem 0; }
+
+.footer .container_wrapper2_resources {
+  position: absolute;
+  left: 50%; }
+
+.footer .container_wrapper2_resources ul li {
+  margin: 1rem 0; }
+
+.footer .container_wrapper2_company {
+  position: absolute;
+  left: 75%; }
+
+.footer .container_wrapper2_company ul li {
+  margin: 1rem 0; }
+
+.footer-msg {
+  padding: 2.5rem 5rem;
+  background-color: #f0eff0; }
+
+.footer-msg::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.footer-msg .privacy span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+  margin: 0 1.5rem 0 0;
+  color: #696969; }
+
+.footer-msg .privacy span a:hover {
+  color: #1264a3; }
+
+.socialmedia {
+  float: right; }
+
+.socialmedia a:hover {
+  color: #1264a3; }
+
+.socialmedia .fa {
+  font-size: 2.3rem;
+  margin: 0 1.2rem 0 0;
+  color: #363636; }
+
+.copyright {
+  padding: 1rem 5rem;
+  background-color: #e3e3e3;
+  font-size: 1rem; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */ }
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
