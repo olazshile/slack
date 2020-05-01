@@ -361,15 +361,23 @@ a {
 .channels .content-msg {
   width: 85%; }
 
-.channels .content-msg a {
-  color: #1264a3; }
+  .channels .content-msg i {
+    color: #1264a3; }
+  
+  .channels .content-msg a {
+    color: #1264a3;
+    padding-right: 1rem; }
 
 .shared-channels {
   max-width: 114rem;
   margin: 0 auto; }
 
-.shared-channels .content-msg a {
-  color: #1264a3; }
+  .shared-channels .content-msg i {
+    color: #1264a3; }
+  
+  .shared-channels .content-msg a {
+    color: #1264a3;
+    padding-right: 1rem; }
 
 .shared-channels .vid {
   padding-left: 1rem; }
@@ -386,8 +394,12 @@ a {
   font-size: 1.7rem;
   padding: 3rem 0 0; }
 
-.feedback_msg a {
-  color: #1264a3; }
+  .feedback_msg i {
+    color: #1264a3; }
+  
+  .feedback_msg a {
+    color: #1264a3;
+    padding-right: 1rem; }
 
 .feedback_container {
   max-width: 1000px;
